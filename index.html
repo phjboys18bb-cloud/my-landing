@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>비개발자를 위한 클로드코드 입문</title>
+<meta name="description" content="코딩을 몰라도 괜찮습니다. 말로 지시해서 실제로 동작하는 결과물을 만드는 4주 과정.">
+<style>
+  :root {
+    --bg: #0e0e0f;
+    --bg-soft: #16161a;
+    --bg-card: #1c1c21;
+    --line: #2b2b33;
+    --text: #f2f0ed;
+    --text-dim: #a3a09b;
+    --accent: #d97757;
+    --accent-soft: rgba(217, 119, 87, 0.14);
+    --radius: 14px;
+    --maxw: 1080px;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #faf9f7;
+      --bg-soft: #f2efea;
+      --bg-card: #ffffff;
+      --line: #e2ddd6;
+      --text: #1a1a1c;
+      --text-dim: #6b6862;
+      --accent: #c25f3d;
+      --accent-soft: rgba(194, 95, 61, 0.1);
+    }
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo",
+                 "Malgun Gothic", "Segoe UI", sans-serif;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+
+  section { padding: 96px 0; }
+
+  h2 {
+    font-size: clamp(1.6rem, 3.6vw, 2.3rem);
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    margin-bottom: 14px;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+
+  .lead { color: var(--text-dim); font-size: 1.05rem; max-width: 60ch; }
+
+  /* ---------- nav ---------- */
+  header {
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: blur(12px);
+    background: color-mix(in srgb, var(--bg) 82%, transparent);
+    border-bottom: 1px solid var(--line);
+  }
+  nav {
+    max-width: var(--maxw); margin: 0 auto; padding: 14px 24px;
+    display: flex; align-items: center; justify-content: space-between; gap: 20px;
+  }
+  .brand { font-weight: 800; letter-spacing: -0.02em; font-size: 1.02rem; }
+  .brand span { color: var(--accent); }
+  .nav-links { display: flex; gap: 28px; }
+  .nav-links a {
+    color: var(--text-dim); text-decoration: none; font-size: 0.92rem;
+    transition: color 0.18s;
+  }
+  .nav-links a:hover { color: var(--text); }
+
+  .btn {
+    display: inline-block; text-decoration: none; cursor: pointer;
+    border: none; font-family: inherit;
+    background: var(--accent); color: #fff;
+    padding: 12px 24px; border-radius: 10px;
+    font-weight: 700; font-size: 0.95rem;
+    transition: transform 0.15s, filter 0.15s;
+  }
+  .btn:hover { filter: brightness(1.08); transform: translateY(-1px); }
+  .btn-ghost {
+    background: transparent; color: var(--text);
+    border: 1px solid var(--line);
+  }
+  .btn-ghost:hover { border-color: var(--accent); filter: none; }
+  .btn-sm { padding: 9px 18px; font-size: 0.88rem; }
+
+  /* ---------- hero ---------- */
+  .hero {
+    padding: 96px 0 88px;
+    background:
+      radial-gradient(900px 420px at 78% -8%, var(--accent-soft), transparent 65%);
+  }
+  .hero-grid {
+    display: grid; grid-template-columns: 1.05fr 0.95fr;
+    gap: 56px; align-items: center;
+  }
+  .hero h1 {
+    font-size: clamp(2.1rem, 5.4vw, 3.4rem);
+    line-height: 1.2; letter-spacing: -0.035em; margin-bottom: 20px;
+  }
+  .hero h1 em { font-style: normal; color: var(--accent); }
+  .hero p { color: var(--text-dim); font-size: 1.1rem; margin-bottom: 32px; max-width: 46ch; }
+  .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 26px; }
+  .hero-meta {
+    display: flex; gap: 22px; flex-wrap: wrap;
+    font-size: 0.88rem; color: var(--text-dim);
+  }
+  .hero-meta b { color: var(--text); font-weight: 700; }
+
+  /* terminal mockup */
+  .term {
+    background: #121216; border: 1px solid var(--line);
+    border-radius: var(--radius); overflow: hidden;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.35);
+    font-family: "SFMono-Regular", "D2Coding", Consolas, monospace;
+    font-size: 0.86rem;
+  }
+  .term-bar {
+    display: flex; align-items: center; gap: 7px;
+    padding: 11px 14px; background: #1b1b21; border-bottom: 1px solid var(--line);
+  }
+  .dot { width: 11px; height: 11px; border-radius: 50%; }
+  .term-title { margin-left: 8px; color: #8b8880; font-size: 0.76rem; }
+  .term-body { padding: 20px 18px; min-height: 210px; color: #d8d5d0; }
+  .term-body .line { margin-bottom: 9px; white-space: pre-wrap; word-break: break-word; }
+  .term-body .u { color: #8fb8e0; }
+  .term-body .a { color: #d9a06b; }
+  .term-body .ok { color: #7fbf7f; }
+  .caret {
+    display: inline-block; width: 8px; height: 1.05em;
+    background: var(--accent); vertical-align: -2px;
+    animation: blink 1.05s step-end infinite;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  /* ---------- cards ---------- */
+  .grid { display: grid; gap: 18px; margin-top: 44px; }
+  .g3 { grid-template-columns: repeat(3, 1fr); }
+  .g2 { grid-template-columns: repeat(2, 1fr); }
+
+  .card {
+    background: var(--bg-card); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 26px 24px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .card:hover { border-color: var(--accent); transform: translateY(-3px); }
+  .card .ico {
+    width: 40px; height: 40px; border-radius: 10px;
+    background: var(--accent-soft); color: var(--accent);
+    display: grid; place-items: center; font-size: 1.15rem; margin-bottom: 14px;
+  }
+  .card h3 { font-size: 1.05rem; margin-bottom: 8px; letter-spacing: -0.01em; }
+  .card p { color: var(--text-dim); font-size: 0.93rem; }
+
+  .alt { background: var(--bg-soft); }
+
+  /* ---------- curriculum ---------- */
+  .weeks { margin-top: 44px; border-top: 1px solid var(--line); }
+  .week {
+    display: grid; grid-template-columns: 92px 1fr;
+    gap: 24px; padding: 26px 4px;
+    border-bottom: 1px solid var(--line);
+  }
+  .week-no {
+    font-size: 0.8rem; font-weight: 800; letter-spacing: 0.08em;
+    color: var(--accent); padding-top: 4px;
+  }
+  .week h3 { font-size: 1.12rem; margin-bottom: 7px; letter-spacing: -0.01em; }
+  .week p { color: var(--text-dim); font-size: 0.94rem; margin-bottom: 12px; }
+  .tags { display: flex; gap: 7px; flex-wrap: wrap; }
+  .tag {
+    font-size: 0.76rem; color: var(--text-dim);
+    border: 1px solid var(--line); border-radius: 99px; padding: 3px 11px;
+  }
+
+  /* ---------- faq ---------- */
+  .faq { margin-top: 40px; }
+  .qa { border-bottom: 1px solid var(--line); }
+  .qa button {
+    width: 100%; text-align: left; cursor: pointer;
+    background: none; border: none; color: var(--text);
+    font-family: inherit; font-size: 1rem; font-weight: 600;
+    padding: 22px 40px 22px 0; position: relative;
+  }
+  .qa button::after {
+    content: "+"; position: absolute; right: 6px; top: 50%;
+    transform: translateY(-50%); font-size: 1.35rem; font-weight: 400;
+    color: var(--accent); transition: transform 0.25s;
+  }
+  .qa[open] button::after { content: "−"; }
+  .qa .ans {
+    display: grid; grid-template-rows: 0fr;
+    transition: grid-template-rows 0.28s ease;
+  }
+  .qa[open] .ans { grid-template-rows: 1fr; }
+  .qa .ans > div { overflow: hidden; }
+  .qa .ans p { color: var(--text-dim); font-size: 0.95rem; padding-bottom: 22px; max-width: 68ch; }
+
+  /* ---------- final cta ---------- */
+  .cta-box {
+    background: var(--bg-card); border: 1px solid var(--line);
+    border-radius: 20px; padding: 56px 40px; text-align: center;
+    background-image: radial-gradient(600px 260px at 50% 0%, var(--accent-soft), transparent 70%);
+  }
+  .cta-box h2 { margin-bottom: 12px; }
+  .cta-box p { color: var(--text-dim); margin: 0 auto 28px; max-width: 48ch; }
+  .note { font-size: 0.83rem; color: var(--text-dim); margin-top: 16px; }
+
+  footer {
+    border-top: 1px solid var(--line); padding: 34px 0;
+    color: var(--text-dim); font-size: 0.87rem;
+  }
+  .foot { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+
+  /* ---------- reveal ---------- */
+  .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.6s, transform 0.6s; }
+  .reveal.in { opacity: 1; transform: none; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+    .reveal { opacity: 1; transform: none; }
+  }
+
+  /* ---------- responsive ---------- */
+  @media (max-width: 880px) {
+    .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+    .g3, .g2 { grid-template-columns: 1fr; }
+    .nav-links { display: none; }
+    section { padding: 72px 0; }
+    .week { grid-template-columns: 1fr; gap: 8px; }
+    .cta-box { padding: 44px 22px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="brand">클로드코드 <span>입문</span></div>
+    <div class="nav-links">
+      <a href="#why">왜 배우나</a>
+      <a href="#curriculum">커리큘럼</a>
+      <a href="#who">수강 대상</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a href="#apply" class="btn btn-sm">수강 신청</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">4주 온라인 과정</span>
+      <h1>코딩을 몰라도,<br><em>말로 지시해서</em> 만듭니다.</h1>
+      <p>
+        비개발자를 위한 클로드코드 입문. 터미널 첫 실행부터
+        내 손으로 웹페이지·자동화 스크립트를 완성하기까지,
+        4주 동안 단계별로 따라오시면 됩니다.
+      </p>
+      <div class="hero-cta">
+        <a href="#apply" class="btn">수강 신청하기</a>
+        <a href="#curriculum" class="btn btn-ghost">커리큘럼 먼저 보기</a>
+      </div>
+      <div class="hero-meta">
+        <span><b>4주</b> · 주 1회 2시간</span>
+        <span><b>온라인</b> 실시간 + 다시보기</span>
+        <span><b>사전지식</b> 필요 없음</span>
+      </div>
+    </div>
+
+    <div class="term" aria-hidden="true">
+      <div class="term-bar">
+        <span class="dot" style="background:#ff5f57"></span>
+        <span class="dot" style="background:#febc2e"></span>
+        <span class="dot" style="background:#28c840"></span>
+        <span class="term-title">claude code — 실습 예시</span>
+      </div>
+      <div class="term-body" id="term"></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why">
+  <div class="wrap">
+    <span class="eyebrow reveal">Why</span>
+    <h2 class="reveal">"만들 줄 아는 사람"이 되는<br>가장 빠른 길</h2>
+    <p class="lead reveal">
+      기획서를 넘기고 기다리는 대신, 오늘 떠오른 아이디어를 오늘 눈으로 확인합니다.
+    </p>
+
+    <div class="grid g3">
+      <div class="card reveal">
+        <div class="ico">💬</div>
+        <h3>문법 대신 말로</h3>
+        <p>변수·함수 문법을 외우지 않습니다. "이런 걸 만들어줘"라고 정확히 요청하는 법을 배웁니다.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ico">⚡</div>
+        <h3>결과물이 남는 수업</h3>
+        <p>이론만 듣고 끝나지 않습니다. 매주 실제로 돌아가는 산출물이 하나씩 쌓입니다.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ico">🔁</div>
+        <h3>혼자서도 계속</h3>
+        <p>막혔을 때 스스로 푸는 법 — 에러 읽기, 되돌리기, 다시 요청하기까지 익힙니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CURRICULUM -->
+<section id="curriculum" class="alt">
+  <div class="wrap">
+    <span class="eyebrow reveal">Curriculum</span>
+    <h2 class="reveal">4주 커리큘럼</h2>
+    <p class="lead reveal">설치부터 내 프로젝트 완성까지. 각 주차는 앞 주차 결과물 위에 쌓입니다.</p>
+
+    <div class="weeks">
+      <div class="week reveal">
+        <div class="week-no">WEEK 01</div>
+        <div>
+          <h3>첫 실행 — 터미널이 무섭지 않아지는 시간</h3>
+          <p>설치와 로그인, 폴더 개념, 첫 명령 실행. "엔터를 눌러도 컴퓨터는 안 망가진다"를 몸으로 익힙니다.</p>
+          <div class="tags"><span class="tag">설치·세팅</span><span class="tag">터미널 기초</span><span class="tag">첫 대화</span></div>
+        </div>
+      </div>
+
+      <div class="week reveal">
+        <div class="week-no">WEEK 02</div>
+        <div>
+          <h3>지시하는 법 — 원하는 결과를 얻는 요청</h3>
+          <p>같은 작업도 어떻게 말하느냐에 따라 결과가 달라집니다. 맥락 주기, 쪼개서 시키기, 수정 요청하기.</p>
+          <div class="tags"><span class="tag">프롬프트</span><span class="tag">작업 쪼개기</span><span class="tag">피드백 루프</span></div>
+        </div>
+      </div>
+
+      <div class="week reveal">
+        <div class="week-no">WEEK 03</div>
+        <div>
+          <h3>실전 1 — 내 웹페이지 만들기</h3>
+          <p>소개 페이지를 처음부터 끝까지 완성하고 인터넷에 올립니다. 남에게 링크로 보낼 수 있는 결과물이 생깁니다.</p>
+          <div class="tags"><span class="tag">웹페이지</span><span class="tag">수정·개선</span><span class="tag">배포</span></div>
+        </div>
+      </div>
+
+      <div class="week reveal">
+        <div class="week-no">WEEK 04</div>
+        <div>
+          <h3>실전 2 — 반복 업무 자동화</h3>
+          <p>엑셀 정리, 파일 이름 일괄 변경, 자료 수집처럼 매번 하던 일을 스크립트로 넘깁니다.</p>
+          <div class="tags"><span class="tag">자동화</span><span class="tag">파일·데이터</span><span class="tag">에러 대처</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO -->
+<section id="who">
+  <div class="wrap">
+    <span class="eyebrow reveal">For You</span>
+    <h2 class="reveal">이런 분께 맞습니다</h2>
+
+    <div class="grid g2">
+      <div class="card reveal">
+        <div class="ico">📋</div>
+        <h3>기획자 · 마케터</h3>
+        <p>랜딩페이지 시안, 데이터 정리, 리포트 자동화를 개발자 일정에 기대지 않고 직접 해보고 싶은 분.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ico">🏪</div>
+        <h3>1인 사업자 · 창업 준비</h3>
+        <p>외주 견적을 받기 전에, 내 아이디어가 실제로 돌아가는지 먼저 확인하고 싶은 분.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ico">🎓</div>
+        <h3>배우다 포기한 경험이 있는 분</h3>
+        <p>문법 강의 3주차에서 멈춘 적이 있다면, 이번엔 만드는 것부터 시작합니다.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ico">🗂️</div>
+        <h3>반복 업무가 많은 실무자</h3>
+        <p>매주 같은 파일을 같은 방식으로 정리하고 있다면, 그 일을 넘길 수 있습니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="alt">
+  <div class="wrap">
+    <span class="eyebrow reveal">FAQ</span>
+    <h2 class="reveal">자주 묻는 질문</h2>
+
+    <div class="faq">
+      <details class="qa reveal">
+        <button type="button">정말 코딩을 하나도 몰라도 되나요?</button>
+        <div class="ans"><div>
+          <p>네. 1주차는 설치와 터미널 창을 여는 것부터 시작합니다. 프로그래밍 경험을 전제하지 않고, 모르는 용어는 나올 때마다 설명하고 넘어갑니다.</p>
+        </div></div>
+      </details>
+
+      <details class="qa reveal">
+        <button type="button">어떤 컴퓨터가 필요한가요?</button>
+        <div class="ans"><div>
+          <p>Windows 또는 macOS 노트북이면 충분합니다. 별도의 고사양 장비나 유료 프로그램은 필요 없고, 준비물은 첫 수업 전에 안내드립니다.</p>
+        </div></div>
+      </details>
+
+      <details class="qa reveal">
+        <button type="button">수업을 놓치면 어떻게 하나요?</button>
+        <div class="ans"><div>
+          <p>모든 회차는 녹화되어 다시보기로 제공됩니다. 실습 중 막힌 부분은 질문 채널에서 이어서 도움받을 수 있습니다.</p>
+        </div></div>
+      </details>
+
+      <details class="qa reveal">
+        <button type="button">4주 뒤에는 무엇을 할 수 있나요?</button>
+        <div class="ans"><div>
+          <p>직접 만든 웹페이지 1개와 업무 자동화 스크립트 1개가 남습니다. 그리고 더 중요한 것 — 새로운 아이디어가 생겼을 때 혼자서 시작할 수 있게 됩니다.</p>
+        </div></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="apply">
+  <div class="wrap">
+    <div class="cta-box reveal">
+      <h2>다음 기수 모집 중</h2>
+      <p>정원이 차면 마감됩니다. 신청 전 궁금한 점은 편하게 문의해 주세요.</p>
+      <a href="#" class="btn" id="applyBtn">수강 신청하기</a>
+      <p class="note">개강일 · 수강료 · 신청 링크는 확정 후 업데이트됩니다.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 비개발자를 위한 클로드코드 입문</span>
+    <span>문의 · contact@example.com</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---- 스크롤 등장 효과 ---- */
+  var targets = document.querySelectorAll('.reveal');
+  if (reduce || !('IntersectionObserver' in window)) {
+    targets.forEach(function (el) { el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    targets.forEach(function (el) { io.observe(el); });
+  }
+
+  /* ---- FAQ 아코디언: 하나만 열리도록 ---- */
+  var items = Array.prototype.slice.call(document.querySelectorAll('.qa'));
+  items.forEach(function (item) {
+    item.querySelector('button').addEventListener('click', function () {
+      var willOpen = !item.open;
+      items.forEach(function (o) { o.open = false; });
+      item.open = willOpen;
+    });
+  });
+
+  /* ---- 터미널 타이핑 데모 ---- */
+  var term = document.getElementById('term');
+  var script = [
+    { cls: 'u',  text: '> 강의 소개 페이지 하나 만들어줘' },
+    { cls: 'a',  text: '  index.html 생성 중...' },
+    { cls: 'a',  text: '  반응형 레이아웃 적용 중...' },
+    { cls: 'ok', text: '  ✓ 완료 — 브라우저에서 확인하세요' },
+    { cls: 'u',  text: '> 버튼 색을 좀 더 따뜻하게 바꿔줘' },
+    { cls: 'ok', text: '  ✓ 수정 완료' }
+  ];
+
+  function renderAll() {
+    term.innerHTML = '';
+    script.forEach(function (l) {
+      var d = document.createElement('div');
+      d.className = 'line ' + l.cls;
+      d.textContent = l.text;
+      term.appendChild(d);
+    });
+  }
+
+  if (reduce) {
+    renderAll();
+  } else {
+    var li = 0, ci = 0, cur = null;
+
+    function typeStep() {
+      if (li >= script.length) {
+        var caret = document.createElement('span');
+        caret.className = 'caret';
+        term.appendChild(caret);
+        setTimeout(function () {   // 잠시 후 처음부터 반복
+          term.innerHTML = '';
+          li = 0; ci = 0; cur = null;
+          typeStep();
+        }, 3200);
+        return;
+      }
+
+      var line = script[li];
+
+      if (ci === 0) {
+        cur = document.createElement('div');
+        cur.className = 'line ' + line.cls;
+        term.appendChild(cur);
+      }
+
+      if (ci < line.text.length) {
+        cur.textContent += line.text.charAt(ci);
+        ci++;
+        setTimeout(typeStep, line.cls === 'u' ? 42 : 16);
+      } else {
+        li++; ci = 0;
+        setTimeout(typeStep, 420);
+      }
+    }
+    typeStep();
+  }
+
+  /* ---- 신청 버튼: 링크 확정 전 임시 안내 ---- */
+  document.getElementById('applyBtn').addEventListener('click', function (e) {
+    e.preventDefault();
+    alert('신청 링크가 아직 연결되지 않았습니다.\n확정된 폼 주소를 알려주시면 연결해 드립니다.');
+  });
+})();
+</script>
+
+</body>
+</html>
