@@ -2842,9 +2842,7 @@
       "name": "인텔리빅스",
       "market": "KOSDAQ",
       "listed": "2026-10-30",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "DART document.xml",
        "투자설명서": "DART document.xml"
@@ -2866,11 +2864,12 @@
        "amount_at_close": 83488310250.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 8621329.659707725,
+       "pct": 76.05,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 23.95% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 77591966937.36952,
+       "amount_at_close": 265105887036.01254
       },
       "close": 30750.0,
       "shares": 11335408.0,
@@ -2930,9 +2929,7 @@
       "name": "크리에이츠",
       "market": "KOSDAQ",
       "listed": "2026-10-30",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "DART document.xml",
        "투자설명서": "DART document.xml"
@@ -2954,11 +2951,12 @@
        "amount_at_close": 46643256320.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 7952338.682221659,
+       "pct": 60.57,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+30개월) − 상장일 39.43% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 119285080233.32489,
+       "amount_at_close": 71650571526.81715
       },
       "close": 9010.0,
       "shares": 13130380.0,
@@ -3026,9 +3024,7 @@
       "name": "티앤이코리아",
       "market": "KOSDAQ",
       "listed": "2026-10-29",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "DART document.xml",
        "투자설명서": "DART document.xml"
@@ -3050,11 +3046,12 @@
        "amount_at_close": 56190361920.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 7799553.395973154,
+       "pct": 68.71,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 31.29% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 119333166958.38927,
+       "amount_at_close": 123388934724.2953
       },
       "close": 15820.0,
       "shares": 11351096.0,
@@ -3137,9 +3134,7 @@
       "name": "디티에스",
       "market": "KOSDAQ",
       "listed": "2026-10-23",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "DART document.xml",
        "투자설명서": "DART document.xml"
@@ -3161,11 +3156,12 @@
        "amount_at_close": 33716789260.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 12613041.171296297,
+       "pct": 84.73,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 99.85%(+30개월) − 상장일 15.12% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 233341261668.98148,
+       "amount_at_close": 188943356746.01852
       },
       "close": 14980.0,
       "shares": 14881735.0,
@@ -3239,9 +3235,7 @@
       "name": "엠에스바이오",
       "market": "KOSDAQ",
       "listed": "2026-10-22",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "DART document.xml",
        "투자설명서": "DART document.xml"
@@ -3263,11 +3257,12 @@
        "amount_at_close": 49509018000.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 13616925.225032145,
+       "pct": 50.05,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 73.38%(+12개월) − 상장일 23.33% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 106212016755.25073,
+       "amount_at_close": 106212016755.25073
       },
       "close": 7800.0,
       "shares": 27202650.0,
@@ -3320,9 +3315,7 @@
       "name": "엘리스",
       "market": "KOSDAQ",
       "listed": "2026-10-20",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "DART document.xml",
        "투자설명서": "DART document.xml"
@@ -3344,11 +3337,12 @@
        "amount_at_close": 137325672000.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 8818981.819932595,
+       "pct": 79.23,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+24개월) − 상장일 20.77% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 798117854703.8998,
+       "amount_at_close": 523847520103.99615
       },
       "close": 59400.0,
       "shares": 11128864.0,
@@ -3416,9 +3410,7 @@
       "name": "멜콘",
       "market": "KOSDAQ",
       "listed": "2026-10-15",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "DART document.xml",
        "투자설명서": "DART document.xml"
@@ -3440,11 +3432,12 @@
        "amount_at_close": 58202045200.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 8252392.463768115,
+       "pct": 65.5,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+30개월) − 상장일 34.50% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 101504427304.34782,
+       "amount_at_close": 110499535089.85506
       },
       "close": 13390.0,
       "shares": 12600000.0,
@@ -3504,9 +3497,7 @@
       "name": "브릴스",
       "market": "KOSDAQ",
       "listed": "2026-10-01",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -3528,11 +3519,12 @@
        "amount_at_close": 45421213190.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 8360779.543527629,
+       "pct": 73.58,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 26.42% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 163035201098.78876,
+       "amount_at_close": 126498594493.57303
       },
       "close": 15130.0,
       "shares": 11363649.0,
@@ -3608,9 +3600,7 @@
       "name": "덕산넵코어스",
       "market": "KOSDAQ",
       "listed": "2026-09-30",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -3632,11 +3622,12 @@
        "amount_at_close": 53651560320.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 11314900.786836201,
+       "pct": 59.89,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 40.11% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 165197551487.80853,
+       "amount_at_close": 80109497570.80031
       },
       "close": 7080.0,
       "shares": 18986889.0,
@@ -3720,7 +3711,6 @@
       "market": "KOSDAQ",
       "listed": "2026-09-29",
       "unk": [
-       "기존주주 유통가능",
        "기관 경쟁률"
       ],
       "sources": {
@@ -3744,11 +3734,12 @@
        "amount_at_close": 53079192830.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 7523228.674140507,
+       "pct": 73.24,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 26.76% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 135418116134.52913,
+       "amount_at_close": 145273545697.6532
       },
       "close": 19310.0,
       "shares": 10281451.0,
@@ -3816,9 +3807,7 @@
       "name": "글로벌테크놀로지",
       "market": "KOSDAQ",
       "listed": "2026-09-29",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -3840,11 +3829,12 @@
        "amount_at_close": 33437909570.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 15286986.00766111,
+       "pct": 77.81,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+48개월) − 상장일 22.19% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 152869860076.61108,
+       "amount_at_close": 117251182678.76071
       },
       "close": 7670.0,
       "shares": 19646144.0,
@@ -3928,7 +3918,7 @@
       "listed": "2026-09-23",
       "unk": [
        "상장일 유통가능",
-       "기존주주 유통가능"
+       "구주주 물량(보호예수 해제분)"
       ],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
@@ -3953,7 +3943,8 @@
       "float_old_holders": {
        "shares": null,
        "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
+       "route": null,
+       "note": "확인 안 됨 ('기존주주 소계' 행도, 유통가능 스케줄+상장일 유통가능 문구도 없음)",
        "amount_at_ipo": null,
        "amount_at_close": null
       },
@@ -4008,9 +3999,7 @@
       "name": "네오사피엔스",
       "market": "KOSDAQ",
       "listed": "2026-09-21",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -4032,11 +4021,12 @@
        "amount_at_close": 23417136500.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 8721245.440405453,
+       "pct": 71.39,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 28.61% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 87212454404.05452,
+       "amount_at_close": 58432344450.71653
       },
       "close": 6700.0,
       "shares": 12319967.0,
@@ -4112,9 +4102,7 @@
       "name": "스카이랩스",
       "market": "KOSDAQ",
       "listed": "2026-09-04",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -4136,11 +4124,12 @@
        "amount_at_close": 48491887440.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 13649231.391049154,
+       "pct": 72.74,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 27.26% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 136492313910.49155,
+       "amount_at_close": 129394713587.14598
       },
       "close": 9480.0,
       "shares": 18761977.0,
@@ -4223,9 +4212,7 @@
       "name": "해치텍",
       "market": "KOSDAQ",
       "listed": "2026-08-25",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -4247,11 +4234,12 @@
        "amount_at_close": 16086701400.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 3407163.2073011734,
+       "pct": 61.65,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 38.35% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 78364753767.92699,
+       "amount_at_close": 25860368743.415905
       },
       "close": 7590.0,
       "shares": 5487150.0,
@@ -4321,7 +4309,6 @@
       "market": "KOSDAQ",
       "listed": "2026-08-24",
       "unk": [
-       "기존주주 유통가능",
        "기관 경쟁률"
       ],
       "sources": {
@@ -4345,11 +4332,12 @@
        "amount_at_close": 30646950600.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 2989005.1763122473,
+       "pct": 51.74,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 88.89%(+36개월) − 상장일 37.15% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 123147013264.06459,
+       "amount_at_close": 42682993917.73889
       },
       "close": 14280.0,
       "shares": 5793411.0,
@@ -4428,7 +4416,7 @@
       "listed": "2026-08-21",
       "unk": [
        "상장일 유통가능",
-       "기존주주 유통가능"
+       "구주주 물량(보호예수 해제분)"
       ],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
@@ -4453,7 +4441,8 @@
       "float_old_holders": {
        "shares": null,
        "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
+       "route": null,
+       "note": "확인 안 됨 ('기존주주 소계' 행도, 유통가능 스케줄+상장일 유통가능 문구도 없음)",
        "amount_at_ipo": null,
        "amount_at_close": null
       },
@@ -4530,11 +4519,12 @@
        "amount_at_close": 12200910480.0
       },
       "float_old_holders": {
-       "shares": 698440.0,
-       "pct": 6.81,
-       "note": "투자설명서 '기존주주 소계' 행 유통가능 칸",
-       "amount_at_ipo": 7682840000.0,
-       "amount_at_close": 2765822400.0
+       "shares": 7090442.0,
+       "pct": 69.1,
+       "route": "A",
+       "note": "주주별 표 '기존주주 소계' 행 매각제한 칸(정확, 기존주주만)",
+       "amount_at_ipo": 77994862000.0,
+       "amount_at_close": 28078150320.0
       },
       "close": 3960.0,
       "shares": 10260882.0,
@@ -4609,9 +4599,7 @@
       "name": "딜리셔스",
       "market": "KOSDAQ",
       "listed": "2026-08-12",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -4633,11 +4621,12 @@
        "amount_at_close": 14827496134.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 13808553.538086202,
+       "pct": 63.11,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 36.89% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 96659874766.60341,
+       "amount_at_close": 25366312849.46435
       },
       "close": 1837.0,
       "shares": 22285460.0,
@@ -4722,7 +4711,6 @@
       "market": "KOSDAQ",
       "listed": "2026-07-24",
       "unk": [
-       "기존주주 유통가능",
        "기관 경쟁률"
       ],
       "sources": {
@@ -4746,11 +4734,12 @@
        "amount_at_close": 17826750000.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 72374.08980582525,
+       "pct": 0.93,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 33.89%(+12개월) − 상장일 32.96% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 1556042930.8252428,
+       "amount_at_close": 502999924.15048546
       },
       "close": 6950.0,
       "shares": 7782161.0,
@@ -4787,9 +4776,7 @@
       "name": "레메디",
       "market": "KOSDAQ",
       "listed": "2026-07-13",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -4811,11 +4798,12 @@
        "amount_at_close": 37675086400.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 4497357.182549354,
+       "pct": 58.97,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 41.03% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 93095293678.77162,
+       "amount_at_close": 54148180477.89422
       },
       "close": 12040.0,
       "shares": 7625791.0,
@@ -4899,7 +4887,6 @@
       "market": "KOSDAQ",
       "listed": "2026-07-06",
       "unk": [
-       "기존주주 유통가능",
        "기관 경쟁률"
       ],
       "sources": {
@@ -4923,11 +4910,12 @@
        "amount_at_close": 12917589300.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 8920252.190418802,
+       "pct": 66.81,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 33.19% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 89202521904.18802,
+       "amount_at_close": 26002535135.07081
       },
       "close": 2915.0,
       "shares": 13455559.0,
@@ -4996,7 +4984,6 @@
       "market": "KOSDAQ",
       "listed": "2026-07-01",
       "unk": [
-       "기존주주 유통가능",
        "기관 경쟁률"
       ],
       "sources": {
@@ -5020,11 +5007,12 @@
        "amount_at_close": 31073505000.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 12958235.989633946,
+       "pct": 69.13,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+24개월) − 상장일 30.87% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 103665887917.07156,
+       "amount_at_close": 69585727264.33429
       },
       "close": 5370.0,
       "shares": 18820400.0,
@@ -5093,9 +5081,7 @@
       "name": "스트라드비젼",
       "market": "KOSDAQ",
       "listed": "2026-06-30",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -5117,11 +5103,12 @@
        "amount_at_close": 58930792720.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 27237803.58781436,
+       "pct": 51.09,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 48.91% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 326853643053.77234,
+       "amount_at_close": 61557436108.46046
       },
       "close": 2260.0,
       "shares": 53850922.0,
@@ -5197,7 +5184,6 @@
       "market": "KOSDAQ",
       "listed": "2026-06-29",
       "unk": [
-       "기존주주 유통가능",
        "기관 경쟁률"
       ],
       "sources": {
@@ -5221,11 +5207,12 @@
        "amount_at_close": 22238076600.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 8503445.81632653,
+       "pct": 70.6,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+24개월) − 상장일 29.40% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 106293072704.08163,
+       "amount_at_close": 53401639726.53061
       },
       "close": 6280.0,
       "shares": 12143530.0,
@@ -5288,7 +5275,7 @@
       "listed": "2026-06-08",
       "unk": [
        "상장일 유통가능",
-       "기존주주 유통가능"
+       "구주주 물량(보호예수 해제분)"
       ],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
@@ -5313,7 +5300,8 @@
       "float_old_holders": {
        "shares": null,
        "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
+       "route": null,
+       "note": "확인 안 됨 ('기존주주 소계' 행도, 유통가능 스케줄+상장일 유통가능 문구도 없음)",
        "amount_at_ipo": null,
        "amount_at_close": null
       },
@@ -5386,7 +5374,6 @@
       "market": "KOSDAQ",
       "listed": "2026-05-20",
       "unk": [
-       "기존주주 유통가능",
        "기관 경쟁률"
       ],
       "sources": {
@@ -5410,11 +5397,12 @@
        "amount_at_close": 96464355960.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 10786228.990651779,
+       "pct": 61.49,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 38.51% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 161793434859.77667,
+       "amount_at_close": 154027349986.50742
       },
       "close": 14280.0,
       "shares": 17792936.0,
@@ -5491,7 +5479,6 @@
       "market": "KOSDAQ",
       "listed": "2026-05-14",
       "unk": [
-       "기존주주 유통가능",
        "기관 경쟁률"
       ],
       "sources": {
@@ -5515,11 +5502,12 @@
        "amount_at_close": 16078411640.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 18147833.86685755,
+       "pct": 72.06,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+30개월) − 상장일 27.94% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 90739169334.28775,
+       "amount_at_close": 41467800385.7695
       },
       "close": 2285.0,
       "shares": 25182861.0,
@@ -5619,11 +5607,12 @@
        "amount_at_close": 44521567300.0
       },
       "float_old_holders": {
-       "shares": 6345204.0,
-       "pct": 19.76,
-       "note": "투자설명서 '기존주주 소계' 행 유통가능 칸",
-       "amount_at_ipo": 38071224000.0,
-       "amount_at_close": 27443007300.0
+       "shares": 21468602.0,
+       "pct": 66.86,
+       "route": "A",
+       "note": "주주별 표 '기존주주 소계' 행 매각제한 칸(정확, 기존주주만)",
+       "amount_at_ipo": 128811612000.0,
+       "amount_at_close": 92851703650.0
       },
       "close": 4325.0,
       "shares": 32450626.0,
@@ -5698,9 +5687,7 @@
       "name": "채비",
       "market": "KOSDAQ",
       "listed": "2026-04-29",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -5722,11 +5709,12 @@
        "amount_at_close": 43058739100.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 35944435.918895595,
+       "pct": 76.82,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+30개월) − 상장일 23.18% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 442116561802.41583,
+       "amount_at_close": 142699410598.0155
       },
       "close": 3970.0,
       "shares": 46949591.0,
@@ -5824,11 +5812,12 @@
        "amount_at_close": 18328065600.0
       },
       "float_old_holders": {
-       "shares": 1229752.0,
-       "pct": 15.63,
-       "note": "투자설명서 '기존주주 소계' 행 유통가능 칸",
-       "amount_at_ipo": 20413883200.0,
-       "amount_at_close": 9592065600.0
+       "shares": 5420562.0,
+       "pct": 68.91,
+       "route": "A",
+       "note": "주주별 표 '기존주주 소계' 행 매각제한 칸(정확, 기존주주만)",
+       "amount_at_ipo": 89981329200.0,
+       "amount_at_close": 42280383600.0
       },
       "close": 7800.0,
       "shares": 7865714.0,
@@ -5900,9 +5889,7 @@
       "name": "리센스메디컬",
       "market": "KOSDAQ",
       "listed": "2026-03-31",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -5924,11 +5911,12 @@
        "amount_at_close": 17434452360.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 7412460.583149258,
+       "pct": 68.31,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+60개월) − 상장일 31.69% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 81537066414.64185,
+       "amount_at_close": 37581175156.56674
       },
       "close": 5070.0,
       "shares": 10999701.0,
@@ -6002,9 +5990,7 @@
       "name": "메쥬",
       "market": "KOSDAQ",
       "listed": "2026-03-26",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -6026,11 +6012,12 @@
        "amount_at_close": 48750816720.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 6503214.909090909,
+       "pct": 67.0,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 33.00% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 140469442036.36365,
+       "amount_at_close": 98978930916.36363
       },
       "close": 15220.0,
       "shares": 9881750.0,
@@ -6109,9 +6096,7 @@
       "name": "한패스",
       "market": "KOSDAQ",
       "listed": "2026-03-25",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -6133,11 +6118,12 @@
        "amount_at_close": 12406470020.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 2508839.4328169455,
+       "pct": 23.73,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 55.36%(+6개월) − 상장일 31.63% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 47667949223.521965,
+       "amount_at_close": 9307794295.750868
       },
       "close": 3710.0,
       "shares": 10572000.0,
@@ -6191,9 +6177,7 @@
       "name": "아이엠바이오로직스",
       "market": "KOSDAQ",
       "listed": "2026-03-20",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -6215,11 +6199,12 @@
        "amount_at_close": 45339504210.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 11254310.791946309,
+       "pct": 76.16,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 23.84% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 292612080590.604,
+       "amount_at_close": 144842979892.349
       },
       "close": 12870.0,
       "shares": 14845961.0,
@@ -6286,9 +6271,7 @@
       "name": "카나프테라퓨틱스",
       "market": "KOSDAQ",
       "listed": "2026-03-16",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -6310,11 +6293,12 @@
        "amount_at_close": 47530020520.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 7679689.060903734,
+       "pct": 59.28,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 40.72% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 153593781218.07468,
+       "amount_at_close": 69193998438.74265
       },
       "close": 9010.0,
       "shares": 13300580.0,
@@ -6372,9 +6356,7 @@
       "name": "액스비스",
       "market": "KOSDAQ",
       "listed": "2026-03-09",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -6396,11 +6378,12 @@
        "amount_at_close": 32909982490.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 6248019.11195159,
+       "pct": 66.95,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+30개월) − 상장일 33.05% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 71852219787.44328,
+       "amount_at_close": 66666363924.52346
       },
       "close": 10670.0,
       "shares": 9333740.0,
@@ -6467,7 +6450,7 @@
       "listed": "2026-03-06",
       "unk": [
        "상장일 유통가능",
-       "기존주주 유통가능"
+       "구주주 물량(보호예수 해제분)"
       ],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
@@ -6492,7 +6475,8 @@
       "float_old_holders": {
        "shares": null,
        "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
+       "route": null,
+       "note": "확인 안 됨 ('기존주주 소계' 행도, 유통가능 스케줄+상장일 유통가능 문구도 없음)",
        "amount_at_ipo": null,
        "amount_at_close": null
       },
@@ -6548,7 +6532,6 @@
       "market": "KOSPI",
       "listed": "2026-03-05",
       "unk": [
-       "기존주주 유통가능",
        "기관 경쟁률"
       ],
       "sources": {
@@ -6572,11 +6555,12 @@
        "amount_at_close": 743250574080.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 258225251.85144424,
+       "pct": 63.65,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+12개월) − 상장일 36.35% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 2143269590366.9873,
+       "amount_at_close": 1301455269331.279
       },
       "close": 5040.0,
       "shares": 405695151.0,
@@ -6644,7 +6628,6 @@
       "market": "KOSDAQ",
       "listed": "2026-01-30",
       "unk": [
-       "기존주주 유통가능",
        "기관 경쟁률"
       ],
       "sources": {
@@ -6668,11 +6651,12 @@
        "amount_at_close": 51877441340.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 16843284.870514825,
+       "pct": 67.95,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+30개월) − 상장일 32.05% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 168432848705.14825,
+       "amount_at_close": 109986650204.4618
       },
       "close": 6530.0,
       "shares": 25468962.0,
@@ -6747,9 +6731,7 @@
       "name": "세미파이브",
       "market": "KOSDAQ",
       "listed": "2025-12-29",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -6771,11 +6753,12 @@
        "amount_at_close": 152122631760.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 21250169.974025972,
+       "pct": 63.04,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 36.96% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 510004079376.62335,
+       "amount_at_close": 259464575382.85712
       },
       "close": 12210.0,
       "shares": 34025440.0,
@@ -6857,9 +6840,7 @@
       "name": "리브스메드",
       "market": "KOSDAQ",
       "listed": "2025-12-24",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -6881,11 +6862,12 @@
        "amount_at_close": 314638232150.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 16682780.75308642,
+       "pct": 67.6,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 32.40% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 917552941419.753,
+       "amount_at_close": 656467422633.9506
       },
       "close": 39350.0,
       "shares": 25255271.0,
@@ -6959,9 +6941,7 @@
       "name": "삼진식품",
       "market": "KOSDAQ",
       "listed": "2025-12-22",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -6983,11 +6963,12 @@
        "amount_at_close": 17439458400.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 6192118.802235825,
+       "pct": 62.43,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+12개월) − 상장일 37.57% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 47060102896.99227,
+       "amount_at_close": 28979115994.46366
       },
       "close": 4680.0,
       "shares": 9918656.0,
@@ -7054,9 +7035,7 @@
       "name": "알지노믹스",
       "market": "KOSDAQ",
       "listed": "2025-12-18",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -7078,11 +7057,12 @@
        "amount_at_close": 101873163000.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 8903087.530195631,
+       "pct": 64.73,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 35.27% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 200319469429.4017,
+       "amount_at_close": 186964838134.10825
       },
       "close": 21000.0,
       "shares": 28184335.0,
@@ -7133,9 +7113,7 @@
       "name": "나라스페이스테크놀로지",
       "market": "KOSDAQ",
       "listed": "2025-12-17",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -7157,11 +7135,12 @@
        "amount_at_close": 32551106000.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 7784893.574514041,
+       "pct": 67.59,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 32.41% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 128450743979.48167,
+       "amount_at_close": 67884271969.762436
       },
       "close": 8720.0,
       "shares": 11610415.0,
@@ -7221,9 +7200,7 @@
       "name": "아크릴",
       "market": "KOSDAQ",
       "listed": "2025-12-16",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -7245,11 +7222,12 @@
        "amount_at_close": 37955490880.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 5076607.473829201,
+       "pct": 63.7,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 36.30% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 98993845739.66943,
+       "amount_at_close": 66605090056.63912
       },
       "close": 13120.0,
       "shares": 8030324.0,
@@ -7316,9 +7294,7 @@
       "name": "티엠씨",
       "market": "KOSPI",
       "listed": "2025-12-15",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -7340,11 +7316,12 @@
        "amount_at_close": 51869728350.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 18901408.085846867,
+       "pct": 78.45,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+12개월) − 상장일 21.55% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 175783095198.37585,
+       "amount_at_close": 188825066777.6102
       },
       "close": 9990.0,
       "shares": 24094225.0,
@@ -7412,11 +7389,12 @@
        "amount_at_close": 19414030350.0
       },
       "float_old_holders": {
-       "shares": 2910415.0,
-       "pct": 25.66,
-       "note": "투자설명서 '기존주주 소계' 행 유통가능 칸",
-       "amount_at_ipo": 43656225000.0,
-       "amount_at_close": 12485680350.0
+       "shares": 6680028.0,
+       "pct": 58.9,
+       "route": "A",
+       "note": "주주별 표 '기존주주 소계' 행 매각제한 칸(정확, 기존주주만)",
+       "amount_at_ipo": 100200420000.0,
+       "amount_at_close": 28657320120.0
       },
       "close": 4290.0,
       "shares": 11507963.0,
@@ -7519,11 +7497,12 @@
        "amount_at_close": 13634246120.0
       },
       "float_old_holders": {
-       "shares": 1092062.0,
-       "pct": 11.43,
-       "note": "투자설명서 '기존주주 소계' 행 유통가능 칸",
-       "amount_at_ipo": 16380930000.0,
-       "amount_at_close": 5744246120.0
+       "shares": 6914358.0,
+       "pct": 72.39,
+       "route": "A",
+       "note": "주주별 표 '기존주주 소계' 행 매각제한 칸(정확, 기존주주만)",
+       "amount_at_ipo": 103715370000.0,
+       "amount_at_close": 36369523080.0
       },
       "close": 5260.0,
       "shares": 10277800.0,
@@ -7605,7 +7584,6 @@
       "market": "KOSDAQ",
       "listed": "2025-12-10",
       "unk": [
-       "기존주주 유통가능",
        "기관 경쟁률"
       ],
       "sources": {
@@ -7629,11 +7607,12 @@
        "amount_at_close": 17724987900.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 6553643.863890615,
+       "pct": 67.82,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 32.18% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 101581479890.30453,
+       "amount_at_close": 37355770024.176506
       },
       "close": 5700.0,
       "shares": 9866730.0,
@@ -7684,9 +7663,7 @@
       "name": "에임드바이오",
       "market": "KOSDAQ",
       "listed": "2025-12-04",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -7708,11 +7685,12 @@
        "amount_at_close": 291739302840.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 26499151.711267605,
+       "pct": 41.31,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 65.45%(+24개월) − 상장일 24.14% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 291490668823.94366,
+       "amount_at_close": 499244018240.2817
       },
       "close": 18840.0,
       "shares": 65137661.0,
@@ -7772,9 +7750,7 @@
       "name": "아로마티카",
       "market": "KOSDAQ",
       "listed": "2025-11-27",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -7796,11 +7772,12 @@
        "amount_at_close": 34504737550.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 2725023.6343640415,
+       "pct": 21.43,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 52.80%(+12개월) − 상장일 31.37% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 21800189074.91233,
+       "amount_at_close": 23571454437.24896
       },
       "close": 8650.0,
       "shares": 12576922.0,
@@ -7861,7 +7838,6 @@
       "market": "KOSDAQ",
       "listed": "2025-11-21",
       "unk": [
-       "기존주주 유통가능",
        "기관 경쟁률"
       ],
       "sources": {
@@ -7885,11 +7861,12 @@
        "amount_at_close": 52835993280.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 21986601.220563844,
+       "pct": 75.88,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 24.12% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 151707548421.89053,
+       "amount_at_close": 166218705227.46265
       },
       "close": 7560.0,
       "shares": 28976443.0,
@@ -7963,9 +7940,7 @@
       "name": "씨엠티엑스",
       "market": "KOSDAQ",
       "listed": "2025-11-20",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -7987,11 +7962,12 @@
        "amount_at_close": 171429771400.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 3471202.960925289,
+       "pct": 37.44,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 69.43%(+3개월) − 상장일 31.99% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 210007779135.97998,
+       "amount_at_close": 200635531141.4817
       },
       "close": 57800.0,
       "shares": 9654438.0,
@@ -8036,9 +8012,7 @@
       "name": "더핑크퐁컴퍼니",
       "market": "KOSDAQ",
       "listed": "2025-11-18",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -8060,11 +8034,12 @@
        "amount_at_close": 59143826700.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 9493520.106382975,
+       "pct": 66.16,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+24개월) − 상장일 33.84% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 360753764042.55304,
+       "amount_at_close": 115631074895.74464
       },
       "close": 12180.0,
       "shares": 14351010.0,
@@ -8122,9 +8097,7 @@
       "name": "그린광학",
       "market": "KOSDAQ",
       "listed": "2025-11-17",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -8146,11 +8119,12 @@
        "amount_at_close": 41898100380.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 7435555.015359298,
+       "pct": 63.54,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+24개월) − 상장일 36.46% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 118968880245.74878,
+       "amount_at_close": 73017150250.82831
       },
       "close": 9820.0,
       "shares": 11702541.0,
@@ -8210,9 +8184,7 @@
       "name": "세나테크놀로지",
       "market": "KOSDAQ",
       "listed": "2025-11-14",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -8234,11 +8206,12 @@
        "amount_at_close": 57365529200.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 3556876.0668139146,
+       "pct": 63.78,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+30개월) − 상장일 36.22% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 202030560595.03033,
+       "amount_at_close": 101015280297.51517
       },
       "close": 28400.0,
       "shares": 5478550.0,
@@ -8298,9 +8271,7 @@
       "name": "큐리오시스",
       "market": "KOSDAQ",
       "listed": "2025-11-13",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -8322,11 +8293,12 @@
        "amount_at_close": 22461232640.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 5098851.679611651,
+       "pct": 67.04,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 32.96% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 112174736951.45633,
+       "amount_at_close": 45685711049.3204
       },
       "close": 8960.0,
       "shares": 15259764.0,
@@ -8386,9 +8358,7 @@
       "name": "이노테크",
       "market": "KOSDAQ",
       "listed": "2025-11-07",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -8410,11 +8380,12 @@
        "amount_at_close": 34968521690.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 2849085.5080049266,
+       "pct": 32.1,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 64.58%(+12개월) − 상장일 32.48% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 41881556967.672424,
+       "amount_at_close": 34559407212.09976
       },
       "close": 12130.0,
       "shares": 8942900.0,
@@ -8473,9 +8444,7 @@
       "name": "노타",
       "market": "KOSDAQ",
       "listed": "2025-11-03",
-      "unk": [
-       "기존주주 유통가능"
-      ],
+      "unk": [],
       "sources": {
        "실적보고서": "lockup_release 캐시(읽기)",
        "투자설명서": "lockup_release 캐시(읽기)"
@@ -8497,11 +8466,12 @@
        "amount_at_close": 80429760000.0
       },
       "float_old_holders": {
-       "shares": null,
-       "pct": null,
-       "note": "확인 안 됨 (주주별 표에 '기존주주 소계' 행 없음)",
-       "amount_at_ipo": null,
-       "amount_at_close": null
+       "shares": 15001635.164835162,
+       "pct": 70.88,
+       "route": "B",
+       "note": "근사: 해제 스케줄 누적 100.00%(+36개월) − 상장일 29.12% (공모주 잠금분 섞일 수 있음, 표 마지막 단계 이후 해제분 제외)",
+       "amount_at_ipo": 136514879999.99998,
+       "amount_at_close": 195771338901.09888
       },
       "close": 13050.0,
       "shares": 21392430.0,
@@ -8580,15 +8550,15 @@
    },
    "unk_items": [
     {
-     "item": "신규상장 '기존주주 유통가능' 55/60종목",
-     "reason": "원문 표 형식 불일치/문서 없음(종목별 사유는 카드): 인텔리빅스, 크리에이츠, 티앤이코리아, 디티에스, 엠에스바이오, 엘리스, 멜콘, 브릴스 …"
-    },
-    {
      "item": "신규상장 '기관 경쟁률' 14/60종목",
      "reason": "원문 표 형식 불일치/문서 없음(종목별 사유는 카드): 빅웨이브로보틱스, 니어스랩, 에이치엘지노믹스, 레몬헬스케어, 매드업, 져스텍, 마키나락스, 폴레드 …"
     },
     {
      "item": "신규상장 '상장일 유통가능' 4/60종목",
+     "reason": "원문 표 형식 불일치/문서 없음(종목별 사유는 카드): 와이즈플래닛컴퍼니, 기도산업, 피스피스스튜디오, 에스팀"
+    },
+    {
+     "item": "신규상장 '구주주 물량(보호예수 해제분)' 4/60종목",
      "reason": "원문 표 형식 불일치/문서 없음(종목별 사유는 카드): 와이즈플래닛컴퍼니, 기도산업, 피스피스스튜디오, 에스팀"
     }
    ],
@@ -8598,7 +8568,13 @@
     "KIND": 0,
     "DART": 11
    },
-   "elapsed_sec": 14
+   "elapsed_sec": 14,
+   "revisions": [
+    {
+     "at": "2026-11-02T07:51:32",
+     "what": "구주주 물량 = 기존주주 보호예수 해제분으로 재정의(사용자 확정 2026-11-02), 캐시 원문으로 재계산(LS 0콜)"
+    }
+   ]
   }
  }
 }
