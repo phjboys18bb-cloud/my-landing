@@ -990,7 +990,7 @@
   },
   "month": {
    "tab": "month",
-   "updated_at": "2026-11-02T20:26:37",
+   "updated_at": "2026-11-02T20:32:36",
    "month": "2026-11",
    "today": "2026-11-02",
    "events": [
@@ -1813,6 +1813,16 @@
      "themes": []
     },
     {
+     "date": "2026-11-13",
+     "kind": "us_ppi",
+     "title": "미국 PPI 발표",
+     "detail": "October 2026분 · 현지 08:30 AM ET",
+     "source": "https://www.bls.gov/schedule/news_release/ppi.htm",
+     "origin": "신규(BLS 원천)",
+     "time_note": "",
+     "themes": []
+    },
+    {
      "date": "2026-11-16",
      "kind": "earnings_season",
      "title": "정기보고서 법정 제출기한(분기 실적시즌 마감)",
@@ -1841,7 +1851,15 @@
     }
    ],
    "n_dart_ir": 76,
-   "cpi_check": null,
+   "cpi_check": {
+    "bls_live": [
+     "2026-11-10"
+    ],
+    "dashboard_const": [
+     "2026-11-10"
+    ],
+    "match": true
+   },
    "msci_published": "August 12, 2026",
    "theme_rule": "events.yaml tags·DART 회사가 my_theme_map 테마/구성종목과 일치할 때만 표시. 매크로 일정은 연결 근거 없음 → '-'",
    "provenance": {
@@ -1866,18 +1884,9 @@
      "reason": "관세청·통계청 별도 일정표 — 미수집(확인 안 됨)"
     }
    ],
-   "unk_items": [
-    {
-     "item": "한국은행 금통위(통화정책방향 결정회의) 2026-11 이후",
-     "reason": "한국은행 2027년 금통위 일정 미발표(통상 전년 10월 말 발표) — 확인 안 됨"
-    },
-    {
-     "item": "미국 PPI 발표일",
-     "reason": "BLS 일정표 조회 실패"
-    }
-   ],
-   "unk_count": 2,
-   "elapsed_sec": 5
+   "unk_items": [],
+   "unk_count": 0,
+   "elapsed_sec": 4
   },
   "alerts": {
    "tab": "alerts",
